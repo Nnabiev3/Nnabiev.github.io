@@ -10,27 +10,198 @@
     <meta property="og:title" content="Начало...">
     <title>Веб-разработка</title>
 </head>
+
 <body>
-<header>
-    <nav>
-        <div class="logo">Набиев Вали</div>
-        <div class="menu"><ul>
-        <li>Обо мне</li>
-        <li>Услуги</li>
-        <li>Кейсы</li>
-        <li>Отзывы</li>
-        <li>Прайс</li>
-        <li>Контакты</li>
-        </ul>
+    <header>
+        <nav>
+            <div class="logo">Набиев Вали</div>
+            <div class="menu">
+                <ul>
+                    <li>Обо мне</li>
+                    <li>Услуги</li>
+                    <li>Кейсы</li>
+                    <li>Отзывы</li>
+                    <li>Прайс</li>
+                    <li>Контакты</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="main">
+        <div class="title__container">
+            <h1>Привет<br>Я Набиев Вали</h1>
+            <h4>Фулл стек веб-разработчик</h4>
+            <button class="main__button">Обо мне</button>
+            <button class="main__button">Мои работы</button>
         </div>
-    </nav>
-</header>
-<div class="main"><div class="title__container">
-    <h1>Привет<br>Я Набиев Вали</h1>
-    <h4>Фулл стек веб-разработчик</h4>
-    <button class="main__button">Обо мне</button>
-    <button class="main__button">Мои работы</button>
-</div></div>
+    </div>
+    <div class="about_me">
+        <h3 class="about_me_h3">Обо мне</h3>
+        <hr class="about_me_hr">
+        <img class="about_me_photo" src="img/lancer.jpg" alt="car">
+        <p class="about_me_info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus ad consequatur, distinctio quod, fuga nihil. Officiis saepe quam iusto excepturi minima inventore totam veritatis, molestias maiores quis. Illum, eius itaque!</p>
+        <p class="about_me_info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus ad consequatur, distinctio quod, fuga nihil. Officiis saepe quam iusto excepturi minima inventore totam veritatis, molestias maiores quis. Illum, eius itaque!</p>
+        <button class="about_me_button">Скачать резюме</button>
+    </div>
+    <div class="i_can">
+        <h3 class="i_can_h3">Что я умею?</h3>
+        <hr class="i_can_hr">
+        <div class="i_can_skills">
+            <img class="i_can_skills_photo" src="img/laptop.png" alt="laptop">
+            <h4 class="i_can_skills_h4">Веб-дизайн</h4>
+            <p class="i_can_skills_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam tenetur beatae similique praesentium odit doloremque illum quod provident cumque repellat eaque veniam, eum consequuntur, adipisci quibusdam modi voluptatibus impedit reiciendis.</p>
+        </div>
+        <div class="i_can_skills">
+            <img class="i_can_skills_photo" src="img/znak.png" alt="code">
+            <h4 class="i_can_skills_h4">Разработка</h4>
+            <p class="i_can_skills_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur quam ex omnis, eaque expedita nesciunt temporibus, veritatis nostrum similique repellat, nisi tenetur vitae! Nesciunt ipsa quibusdam eligendi cumque optio magni?</p>
+        </div>
+        <div class="i_can_skills">
+            <img class="i_can_skills_photo" src="img/rocket.png" alt="rocket">
+            <h4 class="i_can_skills_h4">СЕО-оптимизация</h4>
+            <p class="i_can_skills_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam tenetur beatae similique praesentium odit doloremque illum quod provident cumque repellat eaque veniam, eum consequuntur, adipisci quibusdam modi voluptatibus impedit reiciendis.</p>
+        </div>
+        <div class="i_can_skills">
+            <img class="i_can_skills_photo" src="img/gromophone.png" alt="gromphone">
+            <h4 class="i_can_skills_h4">Маркетинг</h4>
+            <p class="i_can_skills_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam tenetur beatae similique praesentium odit doloremque illum quod provident cumque repellat eaque veniam, eum consequuntur, adipisci quibusdam modi voluptatibus impedit reiciendis.</p>
+        </div>
+    </div>
+    <div class="case">
+        <div class="case_slider">
+            <div class="case_slider_slide">
+                <img class="case_slider_slide_photo" src="" alt="site">
+                <h4 class="case_slider_slide_h4">CLIENT</h4>
+                <p class="cae_slider_slide_h4_description">TRIODE-PLUSS</p>
+                <h4 class="case_slider_slide_h4">WEBSITE</h4>
+                <p class="cae_slider_slide_h4_description">https://soviet-tubes.com</p>
+                <h4 class="case_slider_slide_h4">SOVIET-TUBES</h4>
+                <p class="case_slider_slide_h4_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad velit facilis ipsa animi fuga, deleniti esse laboriosam quod, nostrum eum libero asperiores ratione harum eos consequatur quas veniam laborum id.</p>
+                <button class="case_slider_slide_button"><a href="https://soviet-tubes.com" target="_blank">VISIT LIVE SITE</a></button>
+            </div>
+        </div>
+    </div>
+    <div class="calculate">
+        <h2 class="calculate_title">Расчет стоимости</h2>
+        <form method="post" name="form1">
+            <h3 class="calculate_title_option">ТИП САЙТА</h3>
+            <p><select id="list1">
+                    <option>Выберите пункт</option>
+                    <option>Лендинг</option>
+                    <option>Интернет-магазин</option>
+                    <option>сайт-визитка</option>
+                    <option>Другое</option>
+                </select></p>
+            <h3 class="calculate_title_option">ДИЗАЙН</h3>
+            <p><select id="list2">
+                    <option>Выберите пункт</option>
+                    <option>Авторский</option>
+                    <option>По готовым шаблонам на выбор</option>
+                    <option>Не определился</option>
+                </select></p>
+            <h3 class="calculate_title_option">АДАПТИВНОСТЬ</h3>
+            <p><select id="list3">
+                    <option>Выберите пункт</option>
+                    <option>Адаптивный или универсальный</option>
+                    <option>Только для мобильных устройств</option>
+                    <option>Только для десктопных устройств</option>
+                    <option>Не определился</option>
+                </select></p>
+            <hr class="calculate_hr">
+            <div class="calculate_deadline_count">Сроки</div>
+            <div class="calculate_total_count">Стоимость</div>
+        </form>
+    </div>
+    <div class="statistic">
+        <h3 class="statistic_h3">НЕМНОГО СТАТИСТИКИ</h3>
+        <hr class="statistic_hr">
+        <div class="statistic_happy_client">
+            <img class="statistic_photo" src="img/smile.png" alt="smile">
+            <p class="statistic_happy_client_count">120</p>
+            <p class="statistic_happy_client_count_description">СЧАСТЛИВЫХ КЛИЕНТОВ</p>
+        </div>
+        <div class="statistic_hours">
+            <img class="statistic_photo" src="img/skobki.png" alt="hours">
+            <p class="statistic_hours_count">4,600</p>
+            <p class="statistic_hours_count_description">ЧАСОВ РАБОТЫ</p>
+        </div>
+        <div class="statistic_project">
+            <img class="statistic_photo" src="img/check.png" alt="project">
+            <p class="statistic_project_count">340</p>
+            <p class="statistic_project_description">ПРОЕКТОВ ЗАВЕРШЕНО</p>
+        </div>
+        <div class="statistic_reward">
+            <img class="statistic_photo" src="img/cubok.png" alt="reward">
+            <p class="statistic_reward">23</p>
+            <p class="statistic_reward">Полученных наград</p>
+        </div>
+    </div>
+    <div class="testimonial">
+        <h3 class="testimonial_title">ОТЗЫВЫ</h3>
+        <hr class="testimonial_hr">
+        <div class="testimonial_slider">
+            <img class="testimonial_photo" src="img/chel.jpg" alt="review">
+            <p class="testimonial_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto dolorem labore eius ducimus nihil qui in dolorum laboriosam tenetur iste quisquam corporis blanditiis dolores corrupti, eum quis, nesciunt adipisci reiciendis!</p>
+            <p class="testimonial_description_title">Михаил, Ген директор ПАО "ГАЗПРОМ".</p>
+            <div class="testimonial_slider_dots"></div>
+            <div class="testimonial_slider_dots"></div>
+            <div class="testimonial_slider_dots"></div>
+        </div>
+    </div>
+    <div class="contact">
+        <h3 class="contact_title">МОИ КОНТАКТЫ</h3>
+        <hr class="contact_hr">
+        <p class="contact_title_description">Lorem ipsum dolor sit amet</p>
+        <div class="contact_container">
+            <div class="contact_container_element">
+                <img class="contact_container_element_icon" src="img/geo.png" alt="map">
+                <p class="contact_contact_container_element_description">Санкт-Петербург<br> Невсий проспект 11</p>
+            </div>
+            <div class="contact_container_element">
+                <img class="contact_container_element_icon" src="img/mail.png" alt="mail">
+                <p class="contact_contact_container_element_description"><a href="mailto:nnabiev3@mail.ru">nnabiev3@mail.ru</a></p>
+            </div>
+            <div class="contact_container_element">
+                <img class="contact_container_element_icon" src="img/phone.png" alt="call">
+                <p class="contact_contact_container_element_description"><a href="tel:+79030215585">+79030215585</a></p>
+            </div>
+        </div>
+        <div class="contact_form">
+            <h4 class="contactr_form_title">ОСТАВЬТЕ МНЕ СООБЩЕНИЕ</h4>
+            <form method="post" class="contact_form_post">
+                <input type="text" name="name" title="Введите ваше имя" placeholder="Имя" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <textarea name="mess" placeholder="Сообщение" required></textarea>
+                <input type="submit" name="submit" value="Отправить">
+            </form>
+        </div>
+        <div class="social_button">
+            <div class="social_button_grid">
+               <img clas="social_button_icon" src="img/fb.png" alt="facebook">
+            </div>
+            <div class="social_button_grid">
+               <img clas="social_button_icon" src="img/twitter.png" alt="twitter">
+            </div>
+            <div class="social_button_grid">
+               <img clas="social_button_icon" src="img/ball.png" alt="ball">
+            </div>
+            <div class="social_button_grid">
+               <img clas="social_button_icon" src="img/github.png" alt="github">
+            </div>
+            <div class="social_button_grid">
+               <img clas="social_button_icon" src="img/instagramm.png" alt="instagramm">
+            </div>
+            <div class="social_button_grid">
+               <img clas="social_button_icon" src="img/insta.png" alt="in">
+            </div>
+        </div>
+    </div>
+    <div class="map">
+        Будет интеграция с яндекс картами
+    </div>
+    <div class="footer_copyright">
+        <h4 class="copyright">Copyright© 2022 Набиев Вали Design by Web</h4>
+    </div>
 </body>
 
 </html>
